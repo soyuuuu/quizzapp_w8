@@ -1,6 +1,6 @@
 # quizzapp_w8
 
-True/False quiz app
+Exercise for week 8 : The True/False quiz app
 
 ## Getting Started
 
