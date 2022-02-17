@@ -32,6 +32,7 @@ class _QuizPageState extends State<QuizPage> {
 
   //TODO: 4.ปรับปรุงคำถามและคำตอบที่สอดคล้องกัน โดยให้มีคำถาม-คำตอบอย่างน้อย 5 ข้อ อาจเป็นคำถามใหม่ทั้งหมดก็ได้
   List<String> questions = [
+
     '1 + 1 = 2',
     'แดง+น้ำเงิน = ม่วง',
     'คาร์บอนเป็นธาตุอโลหะ',
@@ -62,6 +63,7 @@ class _QuizPageState extends State<QuizPage> {
                 style: TextStyle(
                   fontSize: 25.0,
                   color: Colors.black87,
+                  fontFamily: 'Quicksand',
                 ),
               ),
             ),
@@ -78,6 +80,7 @@ class _QuizPageState extends State<QuizPage> {
                 style: TextStyle(
                   fontSize: 25.0,
                   color: Colors.black87,
+                  fontFamily: 'Quicksand',
                 ),
               ),
             ),
@@ -95,6 +98,7 @@ class _QuizPageState extends State<QuizPage> {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 20.0,
+                  fontFamily: 'Quicksand',
                 ),
               ),
               onPressed: () {
@@ -154,6 +158,7 @@ class _QuizPageState extends State<QuizPage> {
                 style: TextStyle(
                   fontSize: 20.0,
                   color: Colors.white,
+                  fontFamily: 'Quicksand',
                 ),
               ),
               onPressed: () {
